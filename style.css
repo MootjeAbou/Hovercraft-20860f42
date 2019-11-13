@@ -4,6 +4,8 @@ th  {
 
 a  {
 padding: 50px;
+cursor: grab;
+
 }
 
 td  {
@@ -11,6 +13,7 @@ background-color: grey;
 border-style: solid;
 border-width: 1px;
 text-align: center;
+cursor: grab;
 }
 
 .no  {
@@ -51,6 +54,10 @@ border-width: 1px;
 text-align: center;
 }
 
+color  {
+color: green;
+}
+
 getal  {
 font-size: 15px;
 }
@@ -73,4 +80,8 @@ a:hover {
 
 a:active {
   color: white;
+}
+
+td :hover {
+background: yellow;
 }
